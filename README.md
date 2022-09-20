@@ -15,3 +15,7 @@ Lesson 4: our lists are now showing dinamically, using a map method to call obje
 Lessons 5, 6: we've created and implemented styles using SASS. We also installed and configured CSS Module to avoid class conflicts on our project.
 
 Lesson 7: finished CSS modules implementation.
+
+Lesson 8: we worked with props, using button text both as a conventional prop and as a children, inside the tag.
+
+Hint: I've had troubles trying to call the props.children property. The fix was declaring the Type "<{ children?: React.ReactNode }>", after class component declaration.
