@@ -13,3 +13,5 @@ Lesson 3: we've created a List components to show a topic of study and its timer
 Lesson 4: our lists are now showing dinamically, using a map method to call objects inside our tasks array. The function then receives 2 parameters one for the object properties and a key that we will not be using at the time, but will be very useful when we start working with unique ids on our project.
 
 Lessons 5, 6: we've created and implemented styles using SASS. We also installed and configured CSS Module to avoid class conflicts on our project.
+
+Lesson 7: finished CSS modules implementation.
