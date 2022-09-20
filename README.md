@@ -23,3 +23,5 @@ Hint: I've had troubles trying to call the props.children property. The fix was 
 Lesson 9: on our List component we needed to implement Single Responsability Principle (SRP), which wasn't the case so far. To do this, we've created Item components to be responsible for our li tag, as we also worked with props in different ways, calling it directly on function parameters. We also used destructuring on our List return tree, by spreading it's props --> {...someParameter}.
 
 Hint about spreading operators: Depending on scope this is not recommended, given some unexpected behaviors while using it on props-bloated components or third-party API's. On our case it was a way to reduce verbose and it's a fine.
+
+Lesson 10: we've added our Stopwatch and Clock components to complete the static part of our project. Next step we'll be working with States to make our project a dinamic app.
