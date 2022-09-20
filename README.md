@@ -19,3 +19,7 @@ Lesson 7: finished CSS modules implementation.
 Lesson 8: we worked with props, using button text both as a conventional prop and as a children, inside the tag.
 
 Hint: I've had troubles trying to call the props.children property. The fix was declaring the Type "<{ children?: React.ReactNode }>", after class component declaration.
+
+Lesson 9: on our List component we needed to implement Single Responsability Principle (SRP), which wasn't the case so far. To do this, we've created Item components to be responsible for our li tag, as we also worked with props in different ways, calling it directly on function parameters. We also used destructuring on our List return tree, by spreading it's props --> {...someParameter}.
+
+Hint about spreading operators: Depending on scope this is not recommended, given some unexpected behaviors while using it on props-bloated components or third-party API's. On our case it was a way to reduce verbose and it's a fine.
