@@ -1,10 +1,15 @@
-// trabalhando com class components
+// working with class components
 import React from "react";
 import style from "./Button.module.scss";
 
-class Button extends React.Component<{ children?: React.ReactNode }> {
+class Button extends React.Component<{ children?: React.ReactNode; type?: "button" | "submit" | "reset" | undefined }> {
   render() {
-    return <button className={style.button}>{this.props.children}</button>;
+    const { type = "button" } = this.props;
+    return (
+      <button type={type} className={style.button}>
+        {this.props.children}
+      </button>
+    );
   }
 }
 
