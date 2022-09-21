@@ -45,3 +45,7 @@ Lesson 17: using a ternary opperator we've granted function to select a single T
 Lesson 18: we've created a time converter function in our common project folder, which will be used on our stopwatch convertions.
 
 Hint: As the name might suggest, common project folder usually nest common functions used in multiple parts of the project.
+
+Lessons 19 and 20: to make our stopwatch see state changes on our tasks time we had to apply a Hook called useEffect, otherwise the its component would be rendered once stay the same. In case we applied other solutions like an if statement, it would render indefinitely (infinite loop), making our app crash.
+
+Hint: to read more about useEffect Hooks: https://www.w3schools.com/react/react_useeffect.asp
