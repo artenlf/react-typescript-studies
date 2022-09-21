@@ -29,3 +29,5 @@ Lesson 10: we've added our Stopwatch and Clock components to complete the static
 Lesson 11: we've created our first useState function and learned about its syntax, using an Array composed by first an index as an State and then a function as a setState.
 
 Lesson 12: we've created our first useState in Class component and learned about syntax e scope issues using Class components. Whenever we are triggering some event using Classes, we have to hard bind the this value to a function using bind(this) method. It's an old issue with JavaScript and the main reason why the community shifted to Function components.
+
+Lesson 13: We learned how TypeScript can be useful. We've created an interface to describe complex types and we've used props with state to handle state changes on multiple components.
