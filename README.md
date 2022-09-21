@@ -24,4 +24,6 @@ Lesson 9: on our List component we needed to implement Single Responsability Pri
 
 Hint about spreading operators: Depending on scope this is not recommended, given some unexpected behaviors while using it on props-bloated components or third-party API's. On our case it was a way to reduce verbose and it's a fine.
 
-Lesson 10: we've added our Stopwatch and Clock components to complete the static part of our project. Next step we'll be working with States to make our project a dinamic app.
+Lesson 10: we've added our Stopwatch and Clock components to complete the static part of our project. Next step we'll be working with States to make our project a dynamic app.
+
+Lesson 11: we created our first useState function and learned about its syntax, using an Array composed by first an index as an State and then a function as a setState.
