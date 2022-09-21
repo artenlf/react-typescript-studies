@@ -31,3 +31,5 @@ Lesson 11: we've created our first useState function and learned about its synta
 Lesson 12: we've created our first useState in Class component and learned about syntax e scope issues using Class components. Whenever we are triggering some event using Classes, we have to hard bind the this value to a function using bind(this) method. It's an old issue with JavaScript and the main reason why the community shifted to Function components.
 
 Lesson 13: We learned how TypeScript can be useful. We've created an interface to describe complex types and we've used props with state to handle state changes on multiple components.
+
+Lesson 14: We imported uuid package to work with unique hash ids on our tasks. We implemented properties on our type object.
