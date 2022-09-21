@@ -46,6 +46,8 @@ Lesson 18: we've created a time converter function in our common project folder,
 
 Hint: As the name might suggest, common project folder usually nest common functions used in multiple parts of the project.
 
-Lessons 19 and 20: to make our stopwatch see state changes on our tasks time we had to apply a Hook called useEffect, otherwise the its component would be rendered once stay the same. In case we applied other solutions like an if statement, it would render indefinitely (infinite loop), making our app crash.
+Lessons 19 and 20: to make our stopwatch see state changes on our tasks time we had to apply a Hook called useEffect, otherwise the its component would be rendered once stay the same. In case we applied other solutions like an if statement, it would render indefinitely (infinite loop), making our app crash. Thus, we've put selected variable inside the useEffect dependency array (which is its second parameter) and by doing this we enabled useEffect to be "Observable" changes on the State every time they happen.
 
 Hint: to read more about useEffect Hooks: https://www.w3schools.com/react/react_useeffect.asp
+
+Lesson 21: we've created an interface for the clock to display time of a task in our stopwatch. Using "downlevelIteration" on our tsconfig.json we were able to iterate our string array containing decimals and units for minutes and seconds, thus allowing us to return it on our render tree.
