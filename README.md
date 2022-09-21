@@ -26,4 +26,6 @@ Hint about spreading operators: Depending on scope this is not recommended, give
 
 Lesson 10: we've added our Stopwatch and Clock components to complete the static part of our project. Next step we'll be working with States to make our project a dynamic app.
 
-Lesson 11: we created our first useState function and learned about its syntax, using an Array composed by first an index as an State and then a function as a setState.
+Lesson 11: we've created our first useState function and learned about its syntax, using an Array composed by first an index as an State and then a function as a setState.
+
+Lesson 12: we've created our first useState in Class component and learned about syntax e scope issues using Class components. Whenever we are triggering some event using Classes, we have to hard bind the this value to a function using bind(this) method. It's an old issue with JavaScript and the main reason why the community shifted to Function components.
