@@ -41,3 +41,7 @@ Lesson 16: To make it work properly we created interfaces both on List and Item 
 Hint: By default means that we have to use global state management. There's multiple ways to it. One way is a React Hook called "useContext". more about it here: https://dev.to/ms_yogii/usecontext-for-better-state-management-51hi
 
 Lesson 17: using a ternary opperator we've granted function to select a single Task. We also added visual feedback using a class declaration that also uses a ternary opperator to check when to be applied.
+
+Lesson 18: we've created a time converter function in our common project folder, which will be used on our stopwatch convertions.
+
+Hint: As the name might suggest, common project folder usually nest common functions used in multiple parts of the project.
