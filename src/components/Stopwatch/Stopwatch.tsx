@@ -7,9 +7,10 @@ import style from "./Stopwatch.module.scss";
 
 interface Props {
   selected: ITask | undefined;
+  endTask: () => void;
 }
 
-const Stopwatch = ({ selected }: Props) => {
+const Stopwatch = ({ selected, endTask }: Props) => {
   const [time, setTime] = useState<number>();
 
   useEffect(() => {
@@ -18,13 +19,23 @@ const Stopwatch = ({ selected }: Props) => {
     }
   }, [selected]);
 
+  const countdown = (counter: number = 0) => {
+    setTimeout(() => {
+      if (counter > 0) {
+        setTime(counter - 1);
+        return countdown(counter - 1);
+      }
+      endTask();
+    }, 1000);
+  };
+
   return (
     <div className={style.stopwatch}>
       <p className={style.title}>Choose a card and press start</p>
       <div className={style.clockWrapper}>
         <Clock time={time} />
       </div>
-      <Button>Start</Button>
+      <Button onClick={() => countdown(time)}>Start</Button>
     </div>
   );
 };

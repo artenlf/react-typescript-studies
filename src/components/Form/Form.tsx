@@ -12,8 +12,8 @@ class Form extends React.Component<{ setTasks: React.Dispatch<React.SetStateActi
 
   addTask(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    this.props.setTasks((oldTasks) => [
-      ...oldTasks,
+    this.props.setTasks((previousTasks) => [
+      ...previousTasks,
       {
         ...this.state,
         selected: false,
