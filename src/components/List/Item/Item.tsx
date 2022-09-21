@@ -1,4 +1,4 @@
-import style from "./List.module.scss";
+import style from "../List.module.scss";
 
 const Item = ({ task, time }: { task: string; time: string }) => {
   return (
