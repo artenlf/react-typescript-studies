@@ -51,3 +51,9 @@ Lessons 19 and 20: to make our stopwatch see state changes on our tasks time we 
 Hint: to read more about useEffect Hooks: https://www.w3schools.com/react/react_useeffect.asp
 
 Lesson 21: we've created an interface for the clock to display time of a task in our stopwatch. Using "downlevelIteration" on our tsconfig.json we were able to iterate our string array containing decimals and units for minutes and seconds, thus allowing us to return it on our render tree.
+
+Lesson 22: we've created a function onClick in our custom Button, defining a type and also calling this function inside default onClick function in default button tag. We also implemented a countdown function using recursion technique to decrease time until it hits zero.
+
+Hint: whenever we have a custom element, we also lose all default behaviors and functions, thus forcing us to create and declare (bind) functions to default ones, like: onClick={onClick}.
+
+Lesson 23: we've created an endTask function to handle changes whenever a task is completed. We also added visual feedback on our application by using a ternary to apply a class on completed tasks. Finally, whenever a task is completed, user can't select it anymore.
