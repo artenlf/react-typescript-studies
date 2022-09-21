@@ -57,3 +57,7 @@ Lesson 22: we've created a function onClick in our custom Button, defining a typ
 Hint: whenever we have a custom element, we also lose all default behaviors and functions, thus forcing us to create and declare (bind) functions to default ones, like: onClick={onClick}.
 
 Lesson 23: we've created an endTask function to handle changes whenever a task is completed. We also added visual feedback on our application by using a ternary to apply a class on completed tasks. Finally, whenever a task is completed, user can't select it anymore.
+
+Lesson 24: we refactored all our Class components to function components.
+
+Note: we've mixed function expressions between traditional and arrow function expressions for study porpuses.
