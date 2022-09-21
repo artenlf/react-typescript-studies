@@ -33,3 +33,11 @@ Lesson 12: we've created our first useState in Class component and learned about
 Lesson 13: We learned how TypeScript can be useful. We've created an interface to describe complex types and we've used props with state to handle state changes on multiple components.
 
 Lesson 14: We imported uuid package to work with unique hash ids on our tasks. We implemented properties on our type object.
+
+Lesson 15: we've created a function to select a task and show it on the clock. To do that we had to use our App.tsx so it could handle the states properly, since 2 unrelated components cannot communicate each other about state events by default (see hint).
+
+Lesson 16: To make it work properly we created interfaces both on List and Item (this, using inheritance types (through "extends") from our type object) and passed as parameters of our function properties on component return.
+
+Hint: By default means that we have to use global state management. There's multiple ways to it. One way is a React Hook called "useContext". more about it here: https://dev.to/ms_yogii/usecontext-for-better-state-management-51hi
+
+Lesson 17: using a ternary opperator we've granted function to select a single Task. We also added visual feedback using a class declaration that also uses a ternary opperator to check when to be applied.
